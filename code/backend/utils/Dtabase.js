@@ -2,6 +2,6 @@ import mongoose from "mongoose";
 
 
 export const connectDatabase=async()=>{
-    const connection =await mongoose.connect("mongodb+srv://test:test@projectdatabase.0iodxd4.mongodb.net/urlshorten")
+    const connection =await mongoose.connect("fill it with db address")
     console.log(`MongoDB connected: ${connection.connection.host}`)
 };
